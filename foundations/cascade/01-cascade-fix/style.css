@@ -1,42 +1,47 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Paragraph Section */
+.para {
+  font-size: 22px;
+} /*1*/
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+} /*2*/
 
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
+} /*3*/
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
-.para {
-  font-size: 22px;
-}
+/* Button Section */
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+} /*2*/
 
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+} /*1*/
 
-.button {
-  background-color: rgb(255, 255, 255);
+/* Div Section */
+.text {
   color: rgb(0, 0, 0);
-  font-size: 20px;
-}
+  font-size: 22px;
+  font-weight: 100;
+} /*2 - Quitamos div. y dejamos solo la clase .text*/
 
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
-}
+} /*1*/
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
